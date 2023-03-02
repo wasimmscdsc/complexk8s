@@ -12,7 +12,7 @@ spec:
       labels:
         component: web
     spec:
-      containsers:
+      containers:
         - name: client
           image: wasimmscdsc/docker-react-complex-client
           ports:
