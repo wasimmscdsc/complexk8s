@@ -1,6 +1,6 @@
 docker build -t wasimmscdsc/docker-react-complex-client:latest -t wasimmscdsc/docker-react-complex-client:$SHA -f ./client/Dockerfile ./client
 docker build -t wasimmscdsc/docker-react-complex-server:latest -t wasimmscdsc/docker-react-complex-server:$SHA -f ./server/Dockerfile ./server
-docker build -t wasimmscdsc/docker-react-complex-worker:latest -t wasimmscdsc/docker-react-complex-worker:$SHA -f ./workder/Dockerfile ./worker
+docker build -t wasimmscdsc/docker-react-complex-worker:latest -t wasimmscdsc/docker-react-complex-worker:$SHA -f ./worker/Dockerfile ./worker
 
 docker push wasimmscdsc/docker-react-complex-client:latest
 docker push wasimmscdsc/docker-react-complex-server:latest
