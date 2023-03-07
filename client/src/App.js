@@ -18,7 +18,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React - Version 3
+            Learn React - Kubernetes Version 
           </a>
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>
