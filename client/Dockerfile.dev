@@ -1,4 +1,6 @@
 FROM node:16.19.0-alpine
+ENV CI=true
+ENV WDS_SOCKET_PORT=0
 
 WORKDIR /app
 
