@@ -41,5 +41,3 @@ deploy:
 
       - k8s/client-cluster-ip-service.yaml
       - k8s/server-cluster-ip-service.yaml
-
-      - k8s/ingress-service.yaml
